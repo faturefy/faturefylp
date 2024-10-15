@@ -1,0 +1,75 @@
+<html>
+                <head>
+                <style>
+                    body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f4f4f4;
+                    padding: 20px;
+                    }
+
+                    .container {
+                    max-width: 600px;
+                    margin: auto;
+                    background: #ffffff;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                    padding: 20px;
+                    }
+
+                    .header {
+                    text-align: center;
+                    padding: 10px 0;
+                    background-color: #a03dfc;
+                    color: rgb(255, 255, 255);
+                    border-radius: 8px 8px 0 0;
+                    }
+
+                    .content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px 0;
+                    font-size: 16px;
+                    }
+
+                    .footer {
+                    text-align: center;
+                    font-size: 12px;
+                    color: #888;
+                    margin-top: 20px;
+                    }
+
+                    .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #8400ff;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    }
+                </style>
+                </head>
+
+                <body>
+                <div class="container">
+                    <div class="header">
+                    <h1>Redefinição de Senha</h1>
+                    </div>
+                    <div class="content">
+                    <p>Olá!</p>
+                    <p>Sua nova senha é: <strong>' . $newPassword . '</strong></p>
+                    <p>Por favor, não compartilhe sua senha com ninguém.</p>
+                    <br><br>
+                    <h3>Por segurança, ao acessar o painel, troque sua senha</h3>
+                    <br><br>
+                    <a href="https://dashboard.faturefy.com" class="button">Acesse sua conta</a>
+                    </div>
+                    <div class="footer">
+                    <p>Se você não solicitou esta redefinição de senha, ignore este e-mail.</p>
+                    <p>Atenciosamente,<br> Equipe Faturefy</p>
+                    </div>
+                </div>
+                </body>
+                </html>
